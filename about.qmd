@@ -1,0 +1,14 @@
+---
+title: "About"
+format: html
+---
+
+## 👯‍♀️ Meet Busy Idle
+
+We're just two vintage lovers and best friends who wanted to help more babes dress like their dream selves.
+
+Busy Idle was born out of our fashion obsession, thrifting, and our love for styling. We sell because we find too many clothes we love.
+
+> 💌 Want to collaborate, vend at your market, or ask us questions?  
+Email: busyidleclothing@example.com  
+Instagram: [@busyidle.clothing](https://www.instagram.com/busyidle.clothing)

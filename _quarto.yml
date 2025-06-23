@@ -1,0 +1,73 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - images/
+    - CNAME
+    - styles.css
+
+website:
+  title: "Busy Idle Clothing"
+  favicon: images/favicon.ico
+  navbar:
+    background: dark
+    left:
+      - text: "home"
+        href: index.qmd
+      - text: "shop"
+        href: shop.qmd
+      - text: "style.bundles"
+        href: bundles.qmd
+      - text: "markets"
+        href: markets.qmd
+      - text: "about"
+        href: about.qmd
+    right:
+      - icon: instagram
+        href: https://instagram.com/busyidleclothing
+        aria-label: Instagram
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    page-layout: full
+    include-in-header:
+      text: |
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Curated vintage clothing for baddies who break the mold. Shop unique finds at markets across the Midwest or get a personalized style bundle.">
+    include-after-body:
+      text: |
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+        <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          // Typed.js for dynamic taglines
+          if (document.querySelector('.hero-tagline')) {
+            new Typed('.hero-tagline', {
+              strings: [
+                'Curated vintage that tells your story',
+                'For baddies who break the mold',
+                'Unique pieces, unique souls'
+              ],
+              typeSpeed: 50,
+              backSpeed: 30,
+              backDelay: 2000,
+              loop: true
+            });
+          }
+          
+          // Parallax effect
+          window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const hero = document.querySelector('.hero');
+            if (hero) {
+              hero.style.transform = `translateY(${scrolled * 0.5}px)`;
+            }
+          });
+        });
+        </script>
+
+execute:
+  freeze: auto

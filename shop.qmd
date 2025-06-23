@@ -1,0 +1,14 @@
+---
+title: "Shop"
+format: html
+---
+
+## 🛍️ Shop Vintage
+
+Browse a few of our latest pieces. DM us on Instagram to claim or ask questions!
+
+::: gallery
+![](images/shop1.jpg) ![](images/shop2.jpg) ![](images/shop3.jpg)
+:::
+
+> Want more? Follow [\@busyidle.clothing](https://www.instagram.com/busyidle.clothing) for drop announcements.
